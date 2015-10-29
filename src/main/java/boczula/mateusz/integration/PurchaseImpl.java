@@ -7,6 +7,14 @@ public class PurchaseImpl implements Purchase {
 	private String id;
 	private String itemId;
 	private boolean consumed;
+	
+	public PurchaseImpl() {
+	}
+	
+	public PurchaseImpl(String id, String itemId) {
+		this.id = id;
+		this.itemId = itemId;
+	}
 
 
 	public void setId(String id) {
